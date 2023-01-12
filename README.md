@@ -115,7 +115,14 @@
    * git restore --staged *file* 
       > Move *Stagged File* to *Working Directory* 
    ---
-## *Timeline*
+## *Git Bash로 원격 저장소에 연결하기*
+  * mkdir folder
+  * git init
+  * touch README.md
+  * git add README.md
+  * git config --global user.email "junyoung449@gmail.com"
+  * git config --global user.name "Junyoung"
+  * git commit -m "text"
    * git remote add origin *url* 
    * git remote -v 
    * (option)git branch -M main(main으로 이름 변경)
