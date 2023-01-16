@@ -1,0 +1,15 @@
+git commit --amend 커밋 메시지 변경
+	ESC : 명령창
+	i,insert : vim 편집
+	:w 저장
+	:q 나가기
+	:wq 저장하고 나가기
+	:q! 저장하지 않고 나가기
+
+git reset HEAD
+git reset HEAD^
+git ignore 예외 파일 만들기
+	폴더에 .gitignore 파일 만들기
+	.gitignore 파일에 제외할 파일 명 넣기
+git pull origin main
+	깃허브 내용 내려받기
